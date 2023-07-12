@@ -1,0 +1,103 @@
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+a{
+    text-decoration: none;
+    color:#5b90c9;
+}
+body{
+    display:flex;
+    justify-content: top;
+    flex-flow:column nowrap;
+    align-items: center; /*switch to center when ready*/
+}
+body > div{
+    width:25%;
+}
+#logo{
+    margin:30px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+#logo > img{
+    height:31px;
+    width:103px;
+}
+#sign_in {
+    border:2px solid #eeeeee;
+    border-radius: 3px;
+    display:flex;
+    justify-content:top;
+    flex-flow:column nowrap;
+    padding: 5px 20px 20px;
+}
+#form form > div{
+    margin-bottom:10px;
+}
+#title h1{
+    margin-top: 0px;
+    color:#0d0c0c;
+}
+#form{
+    display: flex;
+    justify-content: start;
+    flex-flow:row wrap;
+}
+form div >label{
+    color:#0d0c0c;
+}
+form div{
+    width:198.5%;
+}
+input{
+    width:98.25%;
+    height:30px;
+    margin-bottom:20px;
+}
+#continue_button input{
+    width:100%;
+    background-color:#efbf49;
+    border-radius: 4px;
+}
+#password_text{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#body_bottom{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    margin-bottom:60px;
+}
+.new_to_break{
+    width: 35%;
+    margin-top: 15px;
+}
+#new_to p{
+    color:#84858b;
+}
+#create_account{
+    width:100%;
+}
+#create_account button{
+    width:100%;
+    height:40px;
+}
+#footer_links{
+    width:75%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+footer{
+    border:0px solid black;
+    display:flex;
+    justify-content: center;
+    flex-flow:column nowrap;
+    align-items: center; /*switch to center when ready*/
+    width:25%;
+}
+#page_break{
+    width:100%;
+}
